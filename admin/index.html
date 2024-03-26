@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>MIA Admin</title>
+        <link rel="icon" href="images/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,700">
+        <!--link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow"-->
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <div class="header">
+          <div class="header-content">
+            <div class="header-image" onclick="this.style='display: none'; document.getElementById('mamamia').style='display: normal;';">
+              <img src="images/mia2.png">
+            </div>
+		        <div class="header-image" style="display: none;" id="mamamia">
+		          <img src="images/mia2_mama.png" />
+		        </div>
+            <h2>Welcome to the Backroom :)</h2>
+          </div>
+        </div>
+
+        <!-- Cards -->
+        <div id="cards">
+
+            <a class="card" href="/" onclick="javascript:event.target.port=9000">
+              <div class="card-content">
+                <div class="card-image">
+                  <img src="images/Portainer.png">
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-info">
+                    <div class="card-info-title">
+                      <h3>Portainer</h3>  
+                      <h4>Docker container manager</h4>
+                    </div>    
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a class="card" href="/" onclick="javascript:event.target.port=9117">
+              <div class="card-content">
+                <div class="card-image">
+                    <img src="images/Jackett.png">
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-info">
+                    <div class="card-info-title">
+                      <h3>Jackett</h3>  
+                      <h4>Get torrent indexers</h4>
+                    </div>    
+                  </div>  
+                </div>
+              </div>
+            </a>
+
+            <a class="card" href="/" onclick="javascript:event.target.port=5076">
+              <div class="card-content">
+                <div class="card-image">
+                    <img src="images/Hydra.png">
+                </div>
+                <div class="card-info-wrapper">
+                  <div class="card-info">
+                    <div class="card-info-title">
+                      <h3>NZBHydra</h3>  
+                      <h4>Search for torrents from indexers</h4>
+                    </div>    
+                  </div>
+                </div>
+              </div>
+            </a>
+
+        </div>
+<!-- End Cards -->
+
+          <a id="youtube-link" class="link" href="https://www.youtube.com/watch?v=qWNQUvIk954" onmousehover="return true;"  target="_blank">
+            <div>Youtube</div>
+          </a>
+
+          <script src="js/index.js"></script>
+    </body>
+</html>

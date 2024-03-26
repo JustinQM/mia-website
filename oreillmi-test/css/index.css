@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+}
+
+.image {
+    width: 40vmin;
+    height: 40vmin;
+    object-fit: cover;
+    object-position: 100% 50%;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.image:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+#icon-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    transform: translate(0%, -25%)
+}

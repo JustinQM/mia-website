@@ -1,0 +1,11 @@
+Radar: 7878
+Sonarr: 8989
+lidarr:8686
+qbittorrent: 9091
+sabnzbd: 9092
+
+*Admin*
+portainer:9443
+Jackett: 9117
+nzbhydra2: 5076
+gluten: 8555
