@@ -1,0 +1,6 @@
+{
+	"packages":["arrapi","setuptools"],
+	"files": { 
+		"./packages/miarr/miarr.py":"./miarr.py"
+	}
+}
